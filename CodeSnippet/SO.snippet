@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://yozisensestudio.com/">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Unity ScriptObject</Title>
+			<Shortcut>so</Shortcut>
+			<Description>Unity ScriptObject</Description>
+			<Author>YoZi</Author>
+			<SnippetTypes>
+				<SnippetType>Unity</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>classname</ID>
+					<ToolTip>classname</ToolTip>
+					<Default>classname</Default>
+				</Literal>
+				<Literal>
+					<ID>filename</ID>
+					<ToolTip>filename</ToolTip>
+					<Default>so_</Default>
+				</Literal>
+				<Literal>
+					<ID>menuname</ID>
+					<ToolTip>menuname</ToolTip>
+					<Default>menuname</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[[CreateAssetMenu(fileName = "$filename$",menuName = "$menuname$")]
+			public class $classname$ : ScriptableObject
+			{
+				
+			}]]>
+			</Code>
+			<Imports>
+        		<Import>
+         			<Namespace>UnityEngine</Namespace>
+        		</Import>
+      		</Imports>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
