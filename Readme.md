@@ -32,3 +32,4 @@
 |:---:|:---|
 |dl|using UnityEngine;<br>Debug.Log();|
 |so|using UnityEngine;<br>[CreateAssetMenu(fileName = "so_", menuName = "menuname")]<br>public class classname : ScriptableObject<br>{<br>}|
+|rc|[RequireComponent(typeof(classname))]|
