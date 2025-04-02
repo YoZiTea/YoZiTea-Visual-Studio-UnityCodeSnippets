@@ -2,26 +2,34 @@
 <CodeSnippets  xmlns="">
 	<CodeSnippet Format="1.0.0">
 		<Header>
-			<Title>Debug.Log</Title>
-			<Shortcut>dle</Shortcut>
-			<Description>Unity Engine Debug.LogError Method</Description>
+			<Title>Unity Class</Title>
+			<Shortcut>uclass</Shortcut>
+			<Description>Unity Engine Class</Description>
 			<Author>YoZi</Author>
 			<SnippetTypes>
-				<SnippetType>Unity Method</SnippetType>
-				<SnippetType>Debug</SnippetType>
+				<SnippetType>Unity Class</SnippetType>
+				<SnippetType>Class</SnippetType>
 			</SnippetTypes>
 		</Header>
 		<Snippet>
 			<Declarations>
 				<Literal>
-					<ID>content</ID>
-					<ToolTip>Log Value</ToolTip>
-					<Default>null</Default>
+					<ID>className</ID>
+					<ToolTip>Class Name</ToolTip>
+					<Default>UnityClass</Default>
+				</Literal>
+
+				<Literal>
+					<ID>parentClassName</ID>
+					<ToolTip>Parent Class Name</ToolTip>
+					<Default>MonoBehaviour</Default>
 				</Literal>
 			</Declarations>
 			<Code Language="csharp">
 			<![CDATA[
-			Debug.LogError($$"$content$");
+			public class $className$ : $parentClassName$
+			{
+			}
 			]]>
 			</Code>
 			<Imports>

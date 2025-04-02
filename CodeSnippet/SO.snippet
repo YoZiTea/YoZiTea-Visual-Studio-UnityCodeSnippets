@@ -13,24 +13,24 @@
 		<Snippet>
 			<Declarations>
 				<Literal>
-					<ID>classname</ID>
-					<ToolTip>classname</ToolTip>
-					<Default>classname</Default>
+					<ID>className</ID>
+					<ToolTip>Class Name</ToolTip>
+					<Default>ClassName</Default>
 				</Literal>
 				<Literal>
-					<ID>filename</ID>
-					<ToolTip>filename</ToolTip>
+					<ID>fileName</ID>
+					<ToolTip>File Name</ToolTip>
 					<Default>so_</Default>
 				</Literal>
 				<Literal>
-					<ID>menuname</ID>
-					<ToolTip>menuname</ToolTip>
+					<ID>menuName</ID>
+					<ToolTip>Menu Name</ToolTip>
 					<Default>menuname</Default>
 				</Literal>
 			</Declarations>
 			<Code Language="csharp"><![CDATA[
-			[CreateAssetMenu(fileName = "$filename$",menuName = "$menuname$")]
-			public class $classname$ : ScriptableObject
+			[CreateAssetMenu(fileName = "$fileName$",menuName = "$menuName$")]
+			public class $className$ : ScriptableObject
 			{
 				
 			}
