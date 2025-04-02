@@ -36,3 +36,5 @@
 |so|using UnityEngine;<br>[CreateAssetMenu(fileName = "so_", menuName = "menuname")]<br>public class classname : ScriptableObject|
 |rc|[RequireComponent(typeof(classname))]|
 |uclass|public class ClassName : MonoBehaviour|
+|csis|// csharpier-ignore|
+|csim|// csharpier-ignore-start <br>// csharpier-ignore-end|
