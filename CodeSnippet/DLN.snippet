@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<CodeSnippets  xmlns="http://yozisensestudio.com/">
+<CodeSnippets  xmlns="">
 	<CodeSnippet Format="1.0.0">
 		<Header>
 			<Title>Debug.Log</Title>
-			<Shortcut>dl</Shortcut>
+			<Shortcut>dln</Shortcut>
 			<Description>Unity Engine Debug.Log Method</Description>
 			<Author>YoZi</Author>
 			<SnippetTypes>
@@ -20,7 +20,9 @@
 				</Literal>
 			</Declarations>
 			<Code Language="csharp">
-			<![CDATA[Debug.Log($content$);]]>
+			<![CDATA[
+			Debug.Log($$"$content$");
+			]]>
 			</Code>
 			<Imports>
         		<Import>

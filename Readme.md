@@ -28,8 +28,10 @@
 
 ## 目前快速鍵總覽|
 
-|快速鍵|目標程式碼|
+|快速鍵|目標程式碼片段|
 |:---:|:---|
-|dl|using UnityEngine;<br>Debug.Log();|
+|dln|using UnityEngine;<br>Debug.Log();|
+|dlw|using UnityEngine;<br>Debug.LogWarning();|
+|dle|using UnityEngine;<br>Debug.LogError();|
 |so|using UnityEngine;<br>[CreateAssetMenu(fileName = "so_", menuName = "menuname")]<br>public class classname : ScriptableObject<br>{<br>}|
 |rc|[RequireComponent(typeof(classname))]|

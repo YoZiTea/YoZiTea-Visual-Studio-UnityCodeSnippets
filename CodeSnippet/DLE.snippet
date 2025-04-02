@@ -2,23 +2,27 @@
 <CodeSnippets  xmlns="">
 	<CodeSnippet Format="1.0.0">
 		<Header>
-			<Title>Unity Attribute RequireComponent</Title>
-			<Shortcut>rc</Shortcut>
-			<Description>Unity Attribute RequireComponent</Description>
+			<Title>Debug.Log</Title>
+			<Shortcut>dle</Shortcut>
+			<Description>Unity Engine Debug.Log Method</Description>
 			<Author>YoZi</Author>
 			<SnippetTypes>
-				<SnippetType>Unity</SnippetType>
+				<SnippetType>Unity Method</SnippetType>
+				<SnippetType>Debug</SnippetType>
 			</SnippetTypes>
 		</Header>
 		<Snippet>
 			<Declarations>
 				<Literal>
-					<ID>classname</ID>
-					<ToolTip>classname</ToolTip>
-					<Default>classname</Default>
+					<ID>content</ID>
+					<ToolTip>Log Value</ToolTip>
+					<Default>null</Default>
 				</Literal>
 			</Declarations>
-			<Code Language="csharp"><![CDATA[[RequireComponent(typeof($classname$))]]]>
+			<Code Language="csharp">
+			<![CDATA[
+			Debug.LogError($$"$content$");
+			]]>
 			</Code>
 			<Imports>
         		<Import>

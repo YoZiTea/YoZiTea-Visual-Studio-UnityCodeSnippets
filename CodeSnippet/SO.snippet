@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<CodeSnippets  xmlns="http://yozisensestudio.com/">
+<CodeSnippets  xmlns="">
 	<CodeSnippet Format="1.0.0">
 		<Header>
 			<Title>Unity ScriptObject</Title>
@@ -28,11 +28,13 @@
 					<Default>menuname</Default>
 				</Literal>
 			</Declarations>
-			<Code Language="csharp"><![CDATA[[CreateAssetMenu(fileName = "$filename$",menuName = "$menuname$")]
+			<Code Language="csharp"><![CDATA[
+			[CreateAssetMenu(fileName = "$filename$",menuName = "$menuname$")]
 			public class $classname$ : ScriptableObject
 			{
 				
-			}]]>
+			}
+			]]>
 			</Code>
 			<Imports>
         		<Import>
