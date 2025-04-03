@@ -30,10 +30,10 @@
 
 |快速鍵|目標程式碼片段|
 |:---:|:---|
-|dln|using UnityEngine;<br>Debug.Log();|
-|dlw|using UnityEngine;<br>Debug.LogWarning();|
-|dle|using UnityEngine;<br>Debug.LogError();|
-|so|using UnityEngine;<br>[CreateAssetMenu(fileName = "so_", menuName = "menuname")]<br>public class classname : ScriptableObject|
+|dl|Debug.Log();|
+|dlw|Debug.LogWarning();|
+|dle|Debug.LogError();|
+|so|[CreateAssetMenu(fileName = "File Name", menuName = "Menu Name")]<br>public class classname : ScriptableObject|
 |rc|[RequireComponent(typeof(classname))]|
 |uclass|public class ClassName : MonoBehaviour|
 |csis|// csharpier-ignore|
